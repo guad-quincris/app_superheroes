@@ -1,0 +1,54 @@
+<h1 class="aninated fadeIn">{{heroe.nombre| uppercase}} <sup><img src="{{heroe.img2}}" alt="marca de comic"style="width: 20% "   ></sup>  </h1>
+<h6 style="text-align: right  ">{{  heroe.aparicion}}</h6>
+
+<hr>
+
+<div class="row animated fadeIn fast">
+  <div class="col-md-4">
+    <img src="{{heroe.imgperfil2}}" alt="Super heroe" class="imgperfil">
+    <br>
+    <div class="icon">
+
+        <a href="https://www.facebook.com/" class="icon icon-facebook2" target="_blank"></a>
+        <a href="https://www.twitter.com/" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+
+    </div>
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{heroe.nombre}}</h3>
+    <hr>
+    <p>
+      {{heroe.bio}}
+    </p>
+    <div>
+        <img src="{{heroe.imgMarca}}" alt="marca de comic" class="imgMarca imgRedonda">
+   </div>
+
+    <div class="card border-secondary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Historia del Comic</div>
+        <div class="card-body text-secondary">
+            <img src="{{heroe.imgComic}}" class="card-img-top imgComic" alt="comic">
+
+          <h5 class="card-title">Secondary card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        </div>
+
+
+
+  </div>
+
+</div>
+<div class="card-group" style="width: 80% ">
+    <div class="card">
+      <img src="{{heroe.imgPortada1}}" class="card-img-top" alt="Portada1">
+    </div>
+    <div class="card">
+      <img src="{{heroe.imgPortada2}}" class="card-img-top" alt="Portada2">
+    </div>
+    <div class="card">
+      <img src="{{heroe.imgPortada3}}" class="card-img-top" alt="Portada3" >
+    </div>
+  </div>
